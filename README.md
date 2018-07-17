@@ -1,2 +1,3 @@
 # react-dialog
-react弹窗
+
+React弹窗组件。
