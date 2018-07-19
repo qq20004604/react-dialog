@@ -1,0 +1,95 @@
+#dialog-qq20004604 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#dialog-qq20004604 .dialog-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#dialog-qq20004604 .dialog-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 400px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+#dialog-qq20004604 .dialog-title {
+    position: relative;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+#dialog-qq20004604 .dialog-article {
+    position: relative;
+    padding: 10px 20px;
+}
+
+#dialog-qq20004604 .dialog-footer {
+    position: relative;
+    height: 60px;
+}
+
+#dialog-qq20004604 .dialog-okBtn {
+    float: right;
+    margin-right: 20px;
+    height: 30px;
+    line-height: 28px;
+    margin-top: 10px;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #2d8cf0;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #2d8cf0;
+    color: #fff;
+}
+
+#dialog-qq20004604 .dialog-okBtn:hover {
+    background-color: #2b85e4;
+    border-color: #2b85e4;
+}
+
+#dialog-qq20004604 .dialog-cancelBtn {
+    float: right;
+    margin-right: 20px;
+    height: 30px;
+    line-height: 28px;
+    margin-top: 10px;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #dddee1;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+}
+
+#dialog-qq20004604 .dialog-cancelBtn:hover {
+    color: #2b85e4;
+    background-color: transparent;
+    border-color: #2b85e4;
+}
