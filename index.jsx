@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './dialog.css';
+import './src/dialog.css';
 
-class Dialog extends React.Component {
+class Index extends React.Component {
     render() {
         const {useDefault, defaultContent, content, onclose} = this.props;
         let DOM = null;
@@ -53,10 +53,10 @@ class DialogContainer extends React.Component {
 
         return <div id='dialog-qq20004604'>
             <div className='dialog-bg' onClick={() => this.hide(false)}></div>
-            <Dialog content={this.state.content}
-                    useDefault={this.state.useDefault}
-                    defaultContent={this.state.defaultContent}
-                    onclose={this.hide}/>
+            <Index content={this.state.content}
+                   useDefault={this.state.useDefault}
+                   defaultContent={this.state.defaultContent}
+                   onclose={this.hide}/>
         </div>
     }
 

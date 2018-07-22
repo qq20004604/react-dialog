@@ -1,6 +1,15 @@
 {
-  "name": "demo-loader",
+  "name": "react_dialog@qq20004604",
   "version": "0.0.1",
+  "description": "一个react的弹窗，可以引入后，直接通过命令显示弹窗",
+  "main": "index.js",
+  "keywords": [
+    "react-dialog",
+    "react",
+    "dialog"
+  ],
+  "author": "qq20004604",
+  "license": "BSD",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "dev": "webpack-dev-server --open --config webpack.config.js"

@@ -6,7 +6,7 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const config = {
     // 入口文件
     entry: {
-        app: './src/app.js',
+        app: './demo/app.js',
         vendor: [
             'react',
             'react-dom',

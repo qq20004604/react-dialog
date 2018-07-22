@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Dialog from './dialog/dialog.jsx';
+import Dialog from '../index.jsx';
 
 class App extends React.Component {
     render() {
